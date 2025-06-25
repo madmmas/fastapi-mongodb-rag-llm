@@ -1,4 +1,4 @@
-# FastAPI Skeleton Template
+# FastApi + MongoDB + RAG + OpenAI
 
 ## Run in local
 ### Install Dependencies
