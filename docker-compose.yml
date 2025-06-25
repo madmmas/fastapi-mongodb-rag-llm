@@ -13,7 +13,6 @@ services:
 
   mongodb:
     image: mongo:latest
-    container_name: mongodb
     ports:
       - "27017:27017"
     volumes:
@@ -21,7 +20,6 @@ services:
 
   mongo-express:
     image: mongo-express:latest
-    container_name: mongo-express
     ports:
       - "8081:8081"
     environment:
