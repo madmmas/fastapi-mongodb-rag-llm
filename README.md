@@ -29,6 +29,8 @@ poetry run safety scan
 ### Generate requirements.txt file
 ```
 poetry export --without-hashes --with-credentials -f requirements.txt > requirements.txt
-
+```
+### Run Docker Compose
+```
 docker compose up -d
 ```
